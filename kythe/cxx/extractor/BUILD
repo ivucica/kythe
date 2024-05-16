@@ -106,6 +106,7 @@ cc_library(
         ":supported_language",
         "//external:zlib",
         "//kythe/cxx/common:file_utils",
+        "//kythe/cxx/common:file_vname_generator",
         "//kythe/cxx/common:index_writer",
         "//kythe/cxx/common:json_proto",
         "//kythe/cxx/common:kzip_writer",
